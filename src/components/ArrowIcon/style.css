@@ -1,0 +1,9 @@
+.arrow-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+}
+
+.arrowType-down {
+  transform: scaleY(-1);
+}

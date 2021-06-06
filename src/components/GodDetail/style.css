@@ -1,0 +1,30 @@
+.god-detail-container {
+  width: 15rem;
+  background: #ffffff8c;
+  position: absolute;
+  left: 5.5rem;
+  top: 7rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.god-bg-container {
+  position: relative;
+  width: 96px;
+  height: 96px;
+}
+
+.god-bg {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+}
+
+img.god-icon.size-medium {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

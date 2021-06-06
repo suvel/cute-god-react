@@ -1,0 +1,38 @@
+.god-list-container {
+  position: absolute;
+  top: 10%;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1rem;
+}
+.gods-container {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 13rem);
+  overflow: scroll;
+  width: max-content;
+  gap: 0.5rem;
+  scrollbar-width: none;
+  margin: 0.5rem 0;
+}
+.gods-container::-webkit-scrollbar {
+  width: 0;
+}
+.god-select-true {
+  background: white;
+  border-radius: 10px;
+  width: 3rem;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
+
+.no-style-button {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,65 @@
+.app-bg {
+  width: 100vw;
+  height: 100vh;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
+
+.big_img-container {
+  width: 100%;
+  height: calc(100vh - 46%);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.bg-img {
+  height: 100%;
+  object-fit: contain;
+  margin: -1rem -10rem;
+  animation: pendulum 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pendulum {
+  0%,
+  100% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+}
+
+.hello-appear {
+  opacity: 0;
+  /* z-index: 1; */
+}
+.hello-appear.hello-appear-active {
+  opacity: 1;
+  transition: opacity 100ms linear;
+}
+
+.hello-enter {
+  opacity: 0;
+}
+.hello-enter.hello-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 100ms;
+}
+
+.hello-exit {
+  opacity: 1;
+}
+.hello-exit.hello-exit-active {
+  opacity: 0;
+  transition: opacity 100ms linear;
+}
+.hello-exit-done {
+  opacity: 0;
+}

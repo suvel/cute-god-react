@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "SAMAN";
+  src: local("SAMAN"),
+    url("./asset/fonts/SAMAN___.TTF") format("truetype");
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

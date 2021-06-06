@@ -1,0 +1,27 @@
+.god-description {
+  text-align: initial;
+  margin: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 11;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-height: calc(100vh - 20rem);
+}
+
+.god-description::-webkit-scrollbar {
+  width: 3px;
+  height: 0px;
+}
+.god-description::-webkit-scrollbar-thumb {
+  background-color: #423e4f;
+}
+
+.expand-true {
+  -webkit-line-clamp: unset !important;
+  overflow: auto !important;
+}
+
+.readmore-btn {
+  font-size: 10px;
+  cursor: pointer;
+}

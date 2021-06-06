@@ -1,0 +1,15 @@
+.app-name {
+  font-family: SAMAN;
+  font-size: 2.5rem;
+  color: #423e4f;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .app-name {
+    padding-right: 5rem;
+  }
+}
