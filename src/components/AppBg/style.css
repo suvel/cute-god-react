@@ -9,6 +9,7 @@
 .big_img-container {
   width: 100%;
   height: calc(100vh - 46%);
+  height: calc(calc(var(--vh, 1vh) * 100) - 46%);
   position: absolute;
   bottom: 0;
   right: 0;

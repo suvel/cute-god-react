@@ -10,7 +10,7 @@
 .gods-container {
   display: flex;
   flex-direction: column;
-  max-height: calc(100vh - 13rem);
+  max-height: calc(var(--vh, 1vh) * 100 - 13rem);
   overflow: scroll;
   width: max-content;
   gap: 0.5rem;

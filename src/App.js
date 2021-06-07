@@ -9,6 +9,9 @@ import GodDetail from "./components/GodDetail";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import "./App.css";
 
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
 function App() {
   const [selectedGod, setSelectedGod] = useState(godList[1]);
 
@@ -27,9 +30,9 @@ function App() {
   return (
     <div className="App">
       <AppBg bg={data?.[0]} selectedGod={selectedGod}>
-          <CSSTransition appear={true} timeout={5000} classNames="fall">
-            <AppName />
-          </CSSTransition>
+        <CSSTransition appear={true} timeout={5000} classNames="fall">
+          <AppName />
+        </CSSTransition>
         <InfoIcon />
         <GodList
           gods={godList}

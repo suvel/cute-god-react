@@ -1,5 +1,5 @@
 .god-detail-container {
-  width: 15rem;
+  max-width: 12rem;
   background: #ffffff8c;
   position: absolute;
   left: 5.5rem;
